@@ -5,7 +5,6 @@ function Movement() {
   return (
     <Layout>
       <h2 className="font-bold"> Financial Management</h2>
-      <h2 className="text-xl mt-4"> Alexandra </h2>
       <Form />
     </Layout>
   )

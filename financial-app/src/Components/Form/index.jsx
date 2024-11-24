@@ -113,7 +113,7 @@ const Form = () => {
           <div className="mb-6">
             <label
               htmlFor="descripcion"
-              className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500"
+              className="block mb-2 text-sm font-medium text-gray-600"
             >
               Descripción
             </label>
@@ -122,13 +122,13 @@ const Form = () => {
               onChange={onChange}
               value={valores.descripcion}
               id="descripcion"
-              className="bg-green-50 border border-green-500 text-green-900 dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2 dark:bg-gray-700 dark:border-green-500"
+              className="bg-green-50 border font-bold dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2 "
             />
           </div>
           <div className="mb-6">
             <label
               htmlFor="cantidad"
-              className="block mb-2 text-sm font-medium text-green-700 dark:text-green-500"
+              className="block mb-2 text-sm font-medium text-gray-600"
             >
               Cantidad
             </label>
@@ -137,7 +137,7 @@ const Form = () => {
               onChange={onChange}
               value={valores.cantidad}
               id="cantidad"
-              className="bg-green-50 border border-green-500 text-green-900 dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2 dark:bg-gray-700 dark:border-green-500"
+              className="bg-green-50 border font-bold text-green-900 dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2"
             />
           </div>
           <div>
@@ -145,7 +145,7 @@ const Form = () => {
               id="tipo"
               onChange={onChange}
               value={valores.tipo}
-              className="inline-flex items-center text-gray-500 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm w-full py-2 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              className="inline-flex items-center  font-bold bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200  rounded-lg text-sm w-full py-2 dark:text-green-400 dark:border-gray-600  "
             >
               <option value="DEFAULT" disabled>
                 Selecciona una Tipo
@@ -194,7 +194,7 @@ const Form = () => {
           <tbody>
           {items.map((data, i) => (
               <tr
-                className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                className="bg-white border-b dark:bg-slate-400/10 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
                 key={i}
               >
                 <td className="px-6 py-4">{new Date().toLocaleDateString()}</td>

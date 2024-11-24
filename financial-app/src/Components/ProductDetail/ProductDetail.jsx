@@ -26,7 +26,7 @@ const ProductDetail = () => {
             // onChange={onChange}
             // value={valores.miInput}
             id="objectApp"
-            className="bg-green-50 border border-green-500 text-green-900 dark:text-gray-600 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2 dark:bg-white dark:border-green-500"
+            className="bg-green-50 border border-green-500 text-green-900  placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full py-2 dark:bg-white dark:border-green-500"
           />
         </div>
         {/* <button
